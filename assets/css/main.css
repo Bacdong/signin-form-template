@@ -1,0 +1,118 @@
+.container {
+    width: 100%;
+    height: 100vh;
+    background-color: var(--white-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-main {
+    width: 50%;
+    height: 70vh;
+    box-shadow: 0 26px 20px rgba(0, 0, 0, 0.3);
+    border-radius: 8px;
+    border: 1px solid #d9d9d9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+.main-title {
+    width: 100%;
+    padding: 2rem 0;
+    font-size: 2.4rem;
+    color: #444;
+    text-align: center;
+}
+
+.main-form {
+    flex: 3;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#submit {
+    width: 60%;
+    /* background-color: blue; */
+    padding-bottom: 3.6rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+.form-groups {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* background-color: red; */
+    margin-bottom: 20px;
+}
+
+.form-caption {
+    font-size: 1.6rem;
+    padding: 0 0 0.4rem 0;
+    color: #333;
+}
+
+.form-input {
+    width: 100%;
+    font-size: 1.6rem;
+    padding: 1.2rem;
+    border-radius: 6px;
+    outline: none;
+    background-color: #ece6e6;
+    border: 1px solid #dbdbdb;
+}
+
+.error {
+    font-size: 1.3rem;
+    color: #ff0000;
+    padding-top: 1rem;
+    display: none;
+}
+
+.btn-submit {
+    width: 38%;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    cursor: pointer;
+    padding: 1.6rem 0;
+    outline: none;   
+    border: none;
+    background-color: #499ee2;
+    border-radius: 6px;
+    color: var(--white-color);
+    box-shadow: 0 6px 20px rgba(73, 158, 226 , 0.8);
+    font-size: 1.6rem;
+}
+
+.btn-submit:hover {
+    background-color: #108cef;
+}
+
+.main-forgot-pwd {
+    flex: 1;
+    width: 100%;
+    height: 20%;
+    background-color: #e8e3e3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.forgot-pwd__link {
+    font-size: 1.8rem;
+    font-weight: 100;
+    letter-spacing: 0.7px;
+    text-decoration: none;
+    color: #108cef;
+}
+
+.forgot-pwd__link:hover {
+    opacity: 0.8;
+    text-decoration: underline;
+}
